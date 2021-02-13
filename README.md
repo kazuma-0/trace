@@ -6,8 +6,8 @@ A command-line application written in dart which uses trace.moe api to reverse s
  - Step 2: Install all dependancies
         + `pub get`
  - Step 3: Compile
-     + `dart compile exe -o trace` for linux and macOS(untested)
-     + `dart compile exe -o trace.exe` for windows
+     + `dart compile exe -o trace bin/trace.dart` for linux and macOS(untested)
+     + `dart compile exe -o trace.exe bin/trace.dart` for windows
  - Step 4: Add the compiled binary to path.      
 
 ## Usage trace <imageURL>
